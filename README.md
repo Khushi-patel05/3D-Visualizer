@@ -135,7 +135,7 @@ T = Sh @ Rz @ Ry @ Rx @ S
 
 * Khushi Patel
 * Kirthana Shetty
-* Neha Porla
+* Porla Neha
 * Karanam Sreehitha
 
 
