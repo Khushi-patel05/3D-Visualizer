@@ -91,7 +91,7 @@ pip install pygame numpy
 python main.py
 ```
 
----
+
 
 ## 🔬 How It Works
 
@@ -110,7 +110,7 @@ Transformation matrix composition:
 T = Sh @ Rz @ Ry @ Rx @ S
 ```
 
----
+
 
 ## 🎓 Learning Outcomes
 
@@ -119,7 +119,7 @@ T = Sh @ Rz @ Ry @ Rx @ S
 * Practical implementation of Eigenvalues and PCA
 * Experience with graphics rendering using Python
 
----
+
 
 ## 🚀 Future Improvements
 
@@ -129,7 +129,7 @@ T = Sh @ Rz @ Ry @ Rx @ S
 * Export animations (GIF/video)
 * OpenGL integration
 
----
+
 
 ## 👩‍💻 Authors
 
@@ -138,16 +138,16 @@ T = Sh @ Rz @ Ry @ Rx @ S
 * Neha Porla
 * Karanam Sreehitha
 
----
+
 
 ## 📜 License
 
 This project is created for academic and educational purposes.
 
----
+
 
 ## ⭐ If You Like This Project
 
 If you found this project useful, consider giving the repository a star ⭐ on GitHub.
 
----
+
