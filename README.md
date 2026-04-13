@@ -1,4 +1,4 @@
-3D Transformation Visualizer
+****3D Transformation Visualizer****
 
 An interactive and visually rich application built using Python and Pygame to demonstrate core concepts of linear algebra and 3D computer graphics.
 
@@ -6,7 +6,7 @@ The system allows real-time visualization of 3D objects under various transforma
 
 ---
 
-Overview
+****Overview****
 
 This project demonstrates the implementation of:
 
@@ -21,16 +21,16 @@ The application was developed as an academic project focusing on both **mathemat
 
 ---
 
-Features
+****Features****
 
-Transformation Features
+****Transformation Features****
 
 Rotation along X, Y, Z axes  
 Scaling (uniform and non-uniform)  
 Translation in 3D space  
 Shearing transformation  
 
-Visualization Features
+****Visualization Features****
 
 Real-time rendering of multiple 3D shapes  
 Dynamic coordinate axes visualization  
@@ -38,7 +38,7 @@ Perspective projection (depth-based)
 Orthographic projection (parallel projection)  
 Side-by-side projection comparison  
 
-Mathematical Features
+****Mathematical Features****
 
 Eigenvectors and eigenvalues visualization  
 Live eigenvectors based on transformation matrix  
@@ -48,7 +48,7 @@ Principal Component Analysis (PCA)
 • Principal components (eigenvectors)  
 • Variance representation (eigenvalues)  
 
-System Features
+****System Features****
 
 Interactive keyboard controls  
 Mouse-based UI for shape selection  
@@ -57,7 +57,7 @@ Event-driven architecture
 
 ---
 
-System Architecture
+****System Architecture****
 
                 ┌──────────────────────────┐
                 │   Transformation Engine  │
@@ -83,7 +83,7 @@ The system processes transformations, projects them into 2D space, and renders t
 
 ---
 
-Communication Flow
+****Communication Flow****
 
 User selects a shape using UI  
 Transformation inputs are applied (rotation, scaling, translation, shear)  
@@ -95,7 +95,7 @@ System continuously updates in real time
 
 ---
 
-📂 Project Structure
+****📂 Project Structure****
 
 3D-Visualizer/
 │
@@ -111,7 +111,7 @@ System continuously updates in real time
 
 ---
 
-Technologies Used
+****Technologies Used****
 
 Python 3.x  
 Pygame  
@@ -120,7 +120,7 @@ Linear Algebra Concepts
 
 ---
 
-Setup Instructions
+****Setup Instructions****
 
 1️) Clone the Repository
 
@@ -141,9 +141,9 @@ python main.py
 
 ---
 
-Controls
+****Controls****
 
-Keyboard Controls
+****Keyboard Controls****
 
 Arrow Keys → Rotate object (X and Y axes)  
 Q / E → Rotate along Z-axis  
@@ -154,7 +154,7 @@ Z / X → Move along Z-axis
 H → Toggle shear transformation  
 V → Toggle live eigenvectors  
 
-Mouse Controls
+****Mouse Controls****
 
 Click on shape buttons to change object  
 Toggle projection mode  
@@ -163,7 +163,7 @@ Toggle PCA visualization
 
 ---
 
-Mathematical Concepts
+****Mathematical Concepts****
 
 Linear Transformations
 
@@ -175,7 +175,7 @@ Shear matrices
 
 ---
 
-Eigenvalues and Eigenvectors
+****Eigenvalues and Eigenvectors****
 
 Used to identify invariant directions under transformation:
 
@@ -183,7 +183,7 @@ A v = λ v
 
 ---
 
-Principal Component Analysis (PCA)
+****Principal Component Analysis (PCA)****
 
 Data centering  
 Covariance matrix computation  
@@ -191,14 +191,14 @@ Eigen decomposition for principal components
 
 ---
 
-Projection Techniques
+****Projection Techniques****
 
 Perspective projection (depth-based scaling)  
 Orthographic projection (parallel projection)  
 
 ---
 
-Learning Outcomes
+****Learning Outcomes****
 
 By building this project, you learn:
 
@@ -210,7 +210,7 @@ Building interactive graphical applications
 
 ---
 
-Future Improvements
+****Future Improvements****
 
 Add GUI sliders for transformations  
 Implement camera controls  
@@ -220,7 +220,7 @@ Support custom user-defined shapes
 
 ---
 
-Author
+****Author****
 
 Khushi Patel  
 Kirthana Shetty  
@@ -229,7 +229,7 @@ Karanam Sreehitha
 
 ---
 
-License
+****License****
 
 This project is created for academic and educational purposes.
 
