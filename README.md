@@ -2,15 +2,7 @@
 
 
 
-\## Overview
-
-
-
-The 3D Transformation Visualizer is an interactive application built using Python and Pygame that demonstrates core concepts of linear algebra and computer graphics. It allows users to explore how 3D objects behave under various transformations such as rotation, scaling, translation, and shearing, along with advanced concepts like eigenvectors, eigenvalues, and Principal Component Analysis (PCA).
-
-
-
-This project is designed as an educational tool to help understand how mathematical transformations are applied in real-time graphical systems.
+An interactive 3D visualization tool built using Python and Pygame to demonstrate linear algebra concepts such as transformations, eigenvectors, and Principal Component Analysis (PCA) in real time.
 
 
 
@@ -18,11 +10,27 @@ This project is designed as an educational tool to help understand how mathemati
 
 
 
-\## Features
+\*\*Overview\*\*
 
 
 
-\### 1. Interactive 3D Shapes
+The 3D Transformation Visualizer allows users to explore how geometric objects behave under different transformations including rotation, scaling, translation, and shearing.
+
+
+
+It also provides visual insights into advanced mathematical concepts such as eigenvectors, eigenvalues, and PCA, making it a useful educational tool for understanding linear algebra in computer graphics.
+
+
+
+\---
+
+
+
+\*\*Features\*\*
+
+
+
+\*\*Interactive 3D Shapes\*\*
 
 
 
@@ -34,17 +42,29 @@ This project is designed as an educational tool to help understand how mathemati
 
 \* Octahedron
 
-\* Prism variants
+\* Prism
 
-\* Sphere, Cylinder, Cone
+\* Triangular Prism (tri\_prism)
+
+\* Pentagonal Prism (pent\_prism)
+
+\* Sphere
+
+\* Cylinder
+
+\* Cone
 
 
 
-Users can switch between shapes dynamically.
+Users can dynamically switch between different shapes.
 
 
 
-\### 2. Transformations
+\---
+
+
+
+\*\*Transformations\*\*
 
 
 
@@ -58,39 +78,49 @@ Users can switch between shapes dynamically.
 
 
 
-\### 3. Projection Modes
+\---
 
 
 
-\* Perspective Projection (realistic depth)
+\*\*Projection Modes\*\*
 
-\* Orthographic Projection (no depth distortion)
+
+
+\* Perspective projection (realistic depth perception)
+
+\* Orthographic projection (no depth distortion)
 
 \* Side-by-side comparison of both projections
 
 
 
-\### 4. Linear Algebra Visualizations
+\---
 
 
 
-\* Eigenvectors and Eigenvalues visualization
+\*\*Linear Algebra Visualizations\*\*
+
+
+
+\* Eigenvectors and eigenvalues visualization
 
 \* Live eigenvector updates based on transformation matrix
 
 \* Principal Component Analysis (PCA)
 
+\* Covariance matrix display
 
+\* Principal directions (eigenvectors)
 
-&#x20; \* Covariance matrix display
-
-&#x20; \* Principal directions (eigenvectors)
-
-&#x20; \* Variance representation (eigenvalues)
+\* Variance representation (eigenvalues)
 
 
 
-\### 5. Coordinate System Visualization
+\---
+
+
+
+\*\*Coordinate System Visualization\*\*
 
 
 
@@ -98,7 +128,7 @@ Users can switch between shapes dynamically.
 
 \* Origin labeling
 
-\* Axes transform along with object
+\* Axes transform along with the object
 
 
 
@@ -106,15 +136,15 @@ Users can switch between shapes dynamically.
 
 
 
-\## Technologies Used
+\*\*Technologies Used\*\*
 
 
 
 \* Python
 
-\* Pygame (for rendering and UI)
+\* Pygame
 
-\* NumPy (for matrix and vector operations)
+\* NumPy
 
 
 
@@ -122,15 +152,11 @@ Users can switch between shapes dynamically.
 
 
 
-\## Mathematical Concepts Covered
+\*\*Mathematical Concepts Covered\*\*
 
 
 
-\### Linear Transformations
-
-
-
-All object transformations are performed using matrices:
+\*\*Linear Transformations\*\*
 
 
 
@@ -142,17 +168,15 @@ All object transformations are performed using matrices:
 
 
 
-\### Eigenvalues and Eigenvectors
+\*\*Eigenvalues and Eigenvectors\*\*
 
 
-
-Used to identify invariant directions under transformations:
 
 A v = λ v
 
 
 
-\### Principal Component Analysis (PCA)
+\*\*Principal Component Analysis (PCA)\*\*
 
 
 
@@ -160,17 +184,17 @@ A v = λ v
 
 \* Covariance matrix computation
 
-\* Eigen decomposition for principal directions
+\* Eigen decomposition
 
 
 
-\### 3D to 2D Projection
+\*\*3D to 2D Projection\*\*
 
 
 
-\* Perspective projection (depth-based scaling)
+\* Perspective projection
 
-\* Orthographic projection (parallel projection)
+\* Orthographic projection
 
 
 
@@ -178,47 +202,43 @@ A v = λ v
 
 
 
-\## Controls
+\*\*Controls\*\*
 
 
 
-\### Keyboard Controls
+\*\*Keyboard Controls\*\*
 
 
 
-\* Arrow Keys: Rotate object (X and Y axes)
+\* Arrow Keys – Rotate object (X and Y axes)
 
-\* Q / E: Rotate along Z-axis
+\* Q / E – Rotate along Z-axis
 
-\* W / S: Increase / decrease scale
+\* W / S – Increase / decrease scale
 
-\* A / D: Move along X-axis
+\* A / D – Move along X-axis
 
-\* R / F: Move along Y-axis
+\* R / F – Move along Y-axis
 
-\* Z / X: Move along Z-axis
+\* Z / X – Move along Z-axis
 
-\* H: Toggle shear transformation
+\* H – Toggle shear transformation
 
-\* V: Toggle live eigenvector visualization
+\* V – Toggle live eigenvector visualization
 
 
 
-\### Mouse Controls
+\*\*Mouse Controls\*\*
 
 
 
 \* Click on shape buttons to change object
 
-\* Toggle:
+\* Toggle projection mode
 
+\* Toggle eigenvector display
 
-
-&#x20; \* Projection mode
-
-&#x20; \* Eigenvector display
-
-&#x20; \* PCA visualization
+\* Toggle PCA visualization
 
 
 
@@ -226,61 +246,27 @@ A v = λ v
 
 
 
-\## Installation and Setup
+\*\*Project Structure\*\*
 
 
 
-\### Prerequisites
-
-
-
-\* Python 3.11.8 installed
-
-
-
-\### Install Dependencies
-
-
-
-```bash
-
-pip install pygame numpy
-
-```
-
-
-
-\### Run the Project
-
-
-
-```bash
-
-python main.py
-
-
-
-```
-
-
-
-\---
-
-
-
-\## Project Structure
-
-
-
-```
-
-project/
+3D-Visualizer/
 
 │── main.py
 
+│── projection.py
+
+│── shapes.py
+
+│── transformation.py
+
+│── visualization.py
+
 │── README.md
 
-```
+│── .gitignore
+
+│── \*\*pycache\*\*/
 
 
 
@@ -288,21 +274,25 @@ project/
 
 
 
-\## Learning Outcomes
+\*\*File Description\*\*
 
 
 
-This project helps in understanding:
+\* \*\*main.py\*\* – Entry point of the application and main execution loop
 
+\* \*\*projection.py\*\* – Handles perspective and orthographic projection logic
 
+\* \*\*shapes.py\*\* – Contains definitions of 3D shapes and their vertices/edges
 
-\* How linear algebra is applied in graphics
+\* \*\*transformation.py\*\* – Implements rotation, scaling, translation, and shear transformations
 
-\* How matrices control transformations
+\* \*\*visualization.py\*\* – Responsible for rendering, UI elements, and drawing
 
-\* Visualization of abstract concepts like eigenvectors and PCA
+\* \*\*README.md\*\* – Project documentation
 
-\* Real-time rendering and event-driven programming
+\* \*\*.gitignore\*\* – Specifies files ignored by Git
+
+\* \*\*\*\*pycache\*\*/\*\* – Stores compiled Python files (auto-generated)
 
 
 
@@ -310,19 +300,37 @@ This project helps in understanding:
 
 
 
-\## Future Enhancements
+\*\*Learning Outcomes\*\*
 
 
 
-\* Add GUI sliders for transformations
+\* Understanding linear algebra in computer graphics
 
-\* Implement camera controls
+\* Applying matrix transformations
 
-\* Add lighting and shading models
+\* Visualizing eigenvectors and PCA
+
+\* Working with real-time rendering systems
+
+
+
+\---
+
+
+
+\*\*Future Enhancements\*\*
+
+
+
+\* GUI sliders for transformations
+
+\* Camera controls
+
+\* Lighting and shading models
 
 \* Export transformation matrices
 
-\* Support for custom user-defined shapes
+\* Custom user-defined shapes
 
 
 
@@ -330,7 +338,7 @@ This project helps in understanding:
 
 
 
-\## Team Members
+\*\*Team Members\*\*
 
 
 
@@ -342,15 +350,17 @@ This project helps in understanding:
 
 \* Karanam Sreehitha
 
+
+
 \---
 
 
 
-\## License
+\*\*License\*\*
 
 
 
-This project is intended for educational purposes.
+This project is intended for academic and educational purposes.
 
 
 
